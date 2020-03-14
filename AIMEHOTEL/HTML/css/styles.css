@@ -84,7 +84,7 @@ img{
 .title::after{
 	content:"";
 	width:200px;
-	background-color:#0180B7;
+	background-color:#2A80B9;
 	height:5px;
 	position:absolute;
 	left:50%;
@@ -222,7 +222,7 @@ img{
 	position:absolute;
 	top:0;
 	left:0;
-	border:1px solid  #0180B7;
+	border:1px solid  #2A80B9;
 	border-bottom:none;
 	transition:0.5s;
 }
@@ -233,7 +233,7 @@ img{
 	position:absolute;
 	bottom:0;
 	left:0;
-	border:1px solid  #0180B7;
+	border:1px solid  #2A80B9;
 	border-top:none;
 	transition:0.5s;
 }
@@ -319,7 +319,7 @@ img{
 	margin:0 auto;
 	color:#fff;
 	display:block;
-	background-color:#0180B7;
+	background-color:#2A80B9;
 	width:180px;
 	height:49px;
 	text-align:center;
@@ -354,7 +354,7 @@ img{
 	align-items:flex-end;
 }
 #footer{
-	background-color:#0180B7;
+	background-color:#2A80B9;
 }
 .logo_footer span{
 	font-size:25px;
@@ -573,10 +573,10 @@ ul{
 		z-index:444;
 	}
 	.navbar-toggle .icon-bar{
-		background:#0180B7;
+		background:#2A80B9;
 	}
 	.navbar-toggle{
-		border: 1px solid #0180B7;
+		border: 1px solid #2A80B9;
 		margin-right:0;
 	}
 	.video{
