@@ -13,6 +13,10 @@ body{
 	font-size:14px;
 	font-family: 'Roboto', sans-serif;
 }
+iframe{
+	border:none;
+	width:100%;
+}
 img{
 	max-width: 100%;
 }
