@@ -466,7 +466,7 @@ ul{
 	display:none;
 }
 .shorten_expand .shorten-detail{
-	display:block;
+	display:inline;
 }
 .shorten_expand .shorten-ellipses{
 	display:none;
