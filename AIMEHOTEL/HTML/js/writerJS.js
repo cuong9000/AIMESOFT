@@ -25,5 +25,28 @@ $(document).ready(function(){
 			scrollTop: $("#contact").offset().top
 		}, 1000);
 	});
+	
+	if (window.matchMedia('(max-width: 768px)').matches)
+	{
+		$('#eclipse4').eclipse({
+						margin: 10,
+						slidesToShow: 3,
+						slidesToMove: 2,
+					autoplay: true,
+					interval: 3000,
+					autoControl: true
+                });
+	}
+	else 
+	{
+		$('#eclipse4').eclipse({
+				margin: 20,
+				slidesToShow: 5,
+				slidesToMove: 1,
+				autoplay: true,
+					interval: 3000,
+					autoControl: true
+		});
+	}
 });
 
